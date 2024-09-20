@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden !important;
+}
+.countiner{
+    width: 90%;
+    margin: auto;
+}
+body{
+    overflow-x: hidden !important;
+}
+body{
+    background-color: rgb(7, 2, 31);
+}
+.logo{
+    font-size: 16px;
+    color: white;
+    
+}
+.container{
+    width: 80%;
+}
+.navbar{
+    background-color:rgb(7, 2, 31);
+}
+.nav-link{
+    color: white;
+    transition: .2s;
+    border: color(#009ad8);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.nav-link:hover{
+    color: #009ad8;
+   
+}
+.main-link{
+    color: #009ad8;
+    
+}
+.navbar-toggler{
+    background-color: white;
+}
+#button-addon2 , .btn-find{
+    background-color: #009ad8;
+    color: white;
+    font-weight: 700;
+}
+#button-addon2:hover{
+    background-color: black;
+
+}
+.icon-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(14, 4, 4);
+color: #009ad8;
+width: 40px;
+height: 40px;
+margin: 5px;
+font-size: 20px;
+transition: .2s;
+border-radius: 50%;
+}
+.icon-team:hover{
+background-color: #009ad8;
+color: white;
+}
+.input-sub ,.input-find{
+    background-color: rgb(31, 28, 28);
+   
+}
+.input-sub::placeholder , .input-find::placeholder{
+    color: rgb(116, 107, 107);
+}
+.temp{
+    font-size: 50px;
+}
+.card{
+    background-color: #323544;
+    color: white;
+    height: 350px;
+    
+}
+.nav-card{
+    background-color: #272934;
+}
+.mood{
+    color: #009ad8;
+}
+.main-body{
+    width: 100%;
+}
+.input-find:focus{
+box-shadow: #323544;
+color: white;
+background-color: black;
+
+}
+.input-sub:focus{
+box-shadow: #323544;
+color: white;
+background-color: black;
+}
